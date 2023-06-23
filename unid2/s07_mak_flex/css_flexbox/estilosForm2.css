@@ -1,0 +1,23 @@
+.contenedor1{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor1 div{background-color: goldenrod; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor2{
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor2 div{background-color: gray; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor3{
+    background-color: plum;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor3 div{background-color: lightcoral; margin: 10px 5px; padding: 5px; width: 50px;}

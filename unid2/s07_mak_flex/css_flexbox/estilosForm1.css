@@ -1,0 +1,25 @@
+.contenedor1{
+    background-color: navajowhite;
+    display: flex;
+    /*flex-direction: column; */ /*row; row-reverse; column; column-reverse */
+    /*flex-wrap: wrap-reverse;  */ /*wrap; nowrap; wrap-reverse */
+    flex-flow: row wrap;
+}
+
+.contenedor1 div{background-color: cornflowerblue; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor2{
+    background-color: purple;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contenedor2 div{background-color: paleturquoise; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor3{
+    background-color: lightpink;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.contenedor3 div{background-color: tomato; margin: 10px 5px; padding: 5px; width: 50px;}
